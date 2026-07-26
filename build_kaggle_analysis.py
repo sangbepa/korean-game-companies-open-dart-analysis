@@ -484,7 +484,7 @@ sns.set_theme(style="whitegrid", context="talk")
 plt.rcParams.update({"figure.facecolor": "white", "axes.facecolor": "white", "axes.titleweight": "bold"})
 
 candidates = [
-    Path("/kaggle/input/korean-game-companies-open-dart-2025-2026"),
+    Path("/kaggle/input/korean-game-companies-financials-2025-2026"),
     Path("../dataset"),
     Path("kaggle/dataset"),
 ]
