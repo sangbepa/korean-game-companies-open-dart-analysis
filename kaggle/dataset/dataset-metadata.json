@@ -1,0 +1,57 @@
+{
+  "title": "Korean Game Companies Financials 2025-2026",
+  "subtitle": "Open DART financial comparison of eight listed Korean game publishers",
+  "description": "An independently prepared, transformed extract of public filings from Open DART. Includes company metadata, comparable consolidated financial figures, filing provenance, and a data dictionary. Amounts are KRW unless stated otherwise. No API key or raw filing archives are included. Not investment advice. Source filings remain subject to applicable rights and Open DART terms.",
+  "id": "sangbepa/korean-game-companies-financials-2025-2026",
+  "licenses": [
+    {
+      "name": "other"
+    }
+  ],
+  "keywords": [
+    "finance",
+    "video games",
+    "south korea",
+    "exploratory data analysis"
+  ],
+  "expectedUpdateFrequency": "never",
+  "userSpecifiedSources": "[Open DART](https://opendart.fss.or.kr/) operated by Korea's Financial Supervisory Service; filing receipt links are preserved in disclosures_2026.csv.",
+  "resources": [
+    {
+      "path": "companies.csv",
+      "description": "Identifiers and listing metadata for eight Korean game companies."
+    },
+    {
+      "path": "financial_summary.csv",
+      "description": "Analysis-ready annual and quarterly financial metrics in KRW."
+    },
+    {
+      "path": "financial_highlights_long.csv",
+      "description": "Long-form consolidated Open DART major-account responses."
+    },
+    {
+      "path": "financial_accounts.csv",
+      "description": "Long-form consolidated full-statement account responses."
+    },
+    {
+      "path": "disclosures_2026.csv",
+      "description": "2026 Open DART filing catalog with receipt numbers and viewer URLs."
+    },
+    {
+      "path": "data_dictionary.csv",
+      "description": "Column-level definitions, units, and derivation notes."
+    },
+    {
+      "path": "provenance.json",
+      "description": "Collection timestamp, source endpoints, report periods, and row counts."
+    },
+    {
+      "path": "key_findings.json",
+      "description": "Machine-readable headline findings derived by the analysis script."
+    },
+    {
+      "path": "README.md",
+      "description": "Methodology, source attribution, caveats, and license notice."
+    }
+  ]
+}

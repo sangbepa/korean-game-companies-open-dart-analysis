@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.duckdb
+*.duckdb.wal
+.DS_Store
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Downloaded source material is append-only local data, not source code.
+data_lake/
+game_accounting_lake/
+dart_data/
+
+# Secrets must stay in the environment, never in this repository.
+.env
+.env.*
+kaggle.json
+.kaggle/

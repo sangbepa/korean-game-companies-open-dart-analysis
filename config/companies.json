@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "companies": [
+    {
+      "company_id": "nexon",
+      "legal_name": "NEXON Co., Ltd.",
+      "display_name": "Nexon",
+      "aliases": ["NEXON"],
+      "country_code": "JP",
+      "reporting_currency": "JPY",
+      "fiscal_year_end_month": 12,
+      "official_website": "https://www.nexon.co.jp/en/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "3659",
+          "market": "TSE Prime",
+          "is_primary": true,
+          "source_url": "https://www.nexon.co.jp/en/ir/stock-information/",
+          "verification_status": "verified_official_ir"
+        }
+      ]
+    },
+    {
+      "company_id": "ncsoft",
+      "legal_name": "NC Corporation",
+      "display_name": "NC",
+      "legal_name_valid_from": "2026-03-26",
+      "aliases": [
+        {
+          "value": "NCSOFT",
+          "alias_type": "former_name",
+          "valid_to": "2026-03-25",
+          "source_url": "https://corporate.nc.com/kr/ir/corpGovernance/constitution.do"
+        },
+        {
+          "value": "NCSOFT Corporation",
+          "alias_type": "former_legal_name",
+          "valid_to": "2026-03-25",
+          "source_url": "https://corporate.nc.com/kr/ir/corpGovernance/constitution.do"
+        },
+        "NC SOFT"
+      ],
+      "country_code": "KR",
+      "reporting_currency": "KRW",
+      "fiscal_year_end_month": 12,
+      "official_website": "https://corporate.nc.com/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "036570",
+          "market": "KRX KOSPI",
+          "is_primary": true,
+          "source_url": "https://corporate.nc.com/en/ir/stockInfo.do",
+          "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "dart_corp_code",
+          "value": "00261443",
+          "is_primary": false,
+          "source_url": "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=00261443",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "netmarble",
+      "legal_name": "Netmarble Corporation",
+      "display_name": "Netmarble",
+      "aliases": ["NETMARBLE"],
+      "country_code": "KR",
+      "reporting_currency": "KRW",
+      "fiscal_year_end_month": 12,
+      "official_website": "https://company.netmarble.com/en",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "251270",
+          "market": "KRX KOSPI",
+          "is_primary": true,
+          "source_url": "https://company.netmarble.com/en/invest/library",
+          "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "dart_corp_code",
+          "value": "00904672",
+          "is_primary": false,
+          "source_url": "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=00904672",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "krafton",
+      "legal_name": "KRAFTON, Inc.",
+      "display_name": "KRAFTON",
+      "aliases": ["Krafton"],
+      "country_code": "KR",
+      "reporting_currency": "KRW",
+      "fiscal_year_end_month": 12,
+      "official_website": "https://www.krafton.com/en/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "259960",
+          "market": "KRX KOSPI",
+          "is_primary": true,
+          "source_url": "https://www.krafton.com/en/ir/stock/",
+          "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "dart_corp_code",
+          "value": "00760971",
+          "is_primary": false,
+          "source_url": "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=00760971",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "kakao_games",
+      "legal_name": "Kakao Games Corp.",
+      "display_name": "Kakao Games",
+      "aliases": ["KakaoGames", "KAKAO GAMES"],
+      "country_code": "KR",
+      "reporting_currency": "KRW",
+      "fiscal_year_end_month": 12,
+      "official_website": "https://www.kakaogamescorp.com/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "293490",
+          "market": "KRX KOSDAQ",
+          "is_primary": true,
+          "source_url": "https://www.kakaogamescorp.com/ir/stock?lang=ko",
+          "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "dart_corp_code",
+          "value": "01137383",
+          "is_primary": false,
+          "source_url": "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=01137383",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "com2us",
+      "legal_name": "Com2uS Corporation",
+      "display_name": "Com2uS",
+      "aliases": ["COM2US", "Com2us"],
+      "country_code": "KR",
+      "reporting_currency": "KRW",
+      "fiscal_year_end_month": 12,
+      "official_website": "https://global.com2us.com/corporation/company/com2us",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "078340",
+          "market": "KRX KOSDAQ",
+          "is_primary": true,
+          "source_url": "https://com2us.com/corporation/ir/eng/stock",
+          "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "dart_corp_code",
+          "value": "00476498",
+          "is_primary": false,
+          "source_url": "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=00476498",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "pearl_abyss",
+      "legal_name": "Pearl Abyss Corp.",
+      "display_name": "Pearl Abyss",
+      "aliases": ["PEARL ABYSS"],
+      "country_code": "KR",
+      "reporting_currency": "KRW",
+      "fiscal_year_end_month": 12,
+      "official_website": "https://www.pearlabyss.com/en-US",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "263750",
+          "market": "KRX KOSDAQ",
+          "is_primary": true,
+          "source_url": "https://www.pearlabyss.com/en-US/IR/Financial",
+          "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "dart_corp_code",
+          "value": "01152470",
+          "is_primary": false,
+          "source_url": "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=01152470",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "wemade",
+      "legal_name": "Wemade Co., Ltd.",
+      "display_name": "WEMADE",
+      "aliases": ["Wemade", "WeMade"],
+      "country_code": "KR",
+      "reporting_currency": "KRW",
+      "fiscal_year_end_month": 12,
+      "official_website": "https://www.wemade.com/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "112040",
+          "market": "KRX KOSDAQ",
+          "is_primary": true,
+          "source_url": "https://corp.wemade.com/IrEn/SharePriceChart",
+          "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "dart_corp_code",
+          "value": "00444329",
+          "is_primary": false,
+          "source_url": "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=00444329",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "devsisters",
+      "legal_name": "Devsisters Co., Ltd.",
+      "display_name": "Devsisters",
+      "aliases": ["DEVSISTERS"],
+      "country_code": "KR",
+      "reporting_currency": "KRW",
+      "fiscal_year_end_month": 12,
+      "official_website": "https://www.devsisters.com/en",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "194480",
+          "market": "KRX KOSDAQ",
+          "is_primary": true,
+          "source_url": "https://www.devsisters.com/en/investors",
+          "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "dart_corp_code",
+          "value": "01008762",
+          "is_primary": false,
+          "source_url": "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=01008762",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    }
+  ]
+}

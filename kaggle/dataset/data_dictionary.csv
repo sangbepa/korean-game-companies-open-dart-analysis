@@ -1,0 +1,107 @@
+file,column,description,unit,derivation
+companies.csv,company_id,Stable project identifier for the company.,,Direct field unless noted.
+companies.csv,company_name,English display name used in the analysis.,,Direct field unless noted.
+companies.csv,corp_code,Eight-digit Open DART corporation code.,,Direct field unless noted.
+companies.csv,stock_code,Six-digit Korea Exchange stock code.,,Direct field unless noted.
+companies.csv,market,Primary Korea Exchange market segment.,,Direct field unless noted.
+disclosures_2026.csv,company_id,Stable project identifier for the company.,,Direct field unless noted.
+disclosures_2026.csv,corp_code,Eight-digit Open DART corporation code.,,Direct field unless noted.
+disclosures_2026.csv,stock_code,Six-digit Korea Exchange stock code.,,Direct field unless noted.
+disclosures_2026.csv,rcept_no,Fourteen-digit Open DART filing receipt number.,,Direct field unless noted.
+disclosures_2026.csv,corp_cls,"DART corporation class: Y, K, N, or E.",,Direct field unless noted.
+disclosures_2026.csv,corp_name,Company name returned in the disclosure search.,,Direct field unless noted.
+disclosures_2026.csv,flr_nm,Name of the filing submitter.,,Direct field unless noted.
+disclosures_2026.csv,rcept_dt,Filing receipt date in YYYYMMDD format.,,Direct field unless noted.
+disclosures_2026.csv,report_nm,Disclosure report title.,,Direct field unless noted.
+disclosures_2026.csv,rm,Combined Open DART filing remark flags.,,Direct field unless noted.
+disclosures_2026.csv,viewer_url,Public DART filing-viewer URL.,,Direct field unless noted.
+financial_accounts.csv,company_id,Stable project identifier for the company.,,Direct field unless noted.
+financial_accounts.csv,company_name,English display name used in the analysis.,,Direct field unless noted.
+financial_accounts.csv,corp_code,Eight-digit Open DART corporation code.,,Direct field unless noted.
+financial_accounts.csv,stock_code,Six-digit Korea Exchange stock code.,,Direct field unless noted.
+financial_accounts.csv,period_label,Analysis period label: FY2025 or Q1_2026.,,Direct field unless noted.
+financial_accounts.csv,business_year,Business year supplied to the Open DART API.,,Direct field unless noted.
+financial_accounts.csv,report_code,"Open DART report code (11011 annual, 11013 first quarter).",,Direct field unless noted.
+financial_accounts.csv,report_name,English description of the report type.,,Direct field unless noted.
+financial_accounts.csv,rcept_no,Fourteen-digit Open DART filing receipt number.,,Direct field unless noted.
+financial_accounts.csv,sj_div,"Statement code such as BS, IS, CIS, CF, or SCE.",,Direct field unless noted.
+financial_accounts.csv,sj_nm,Financial statement name returned by Open DART.,,Direct field unless noted.
+financial_accounts.csv,account_id,XBRL/DART account identifier.,,Direct field unless noted.
+financial_accounts.csv,account_nm,Account name returned by Open DART.,,Direct field unless noted.
+financial_accounts.csv,account_detail,Dimensional account detail returned by Open DART.,,Direct field unless noted.
+financial_accounts.csv,bfefrmtrm_amount,Amount returned by Open DART.,KRW,Direct Open DART field.
+financial_accounts.csv,bfefrmtrm_nm,Period or field name returned by Open DART.,,Direct Open DART field.
+financial_accounts.csv,bsns_year,Open DART or derived field: bsns_year.,,See source CSV and README.
+financial_accounts.csv,currency,Currency reported by Open DART.,,Direct field unless noted.
+financial_accounts.csv,frmtrm_add_amount,Amount returned by Open DART.,KRW,Direct Open DART field.
+financial_accounts.csv,frmtrm_amount,Amount returned by Open DART.,KRW,Direct Open DART field.
+financial_accounts.csv,frmtrm_nm,Period or field name returned by Open DART.,,Direct Open DART field.
+financial_accounts.csv,frmtrm_q_amount,Amount returned by Open DART.,KRW,Direct Open DART field.
+financial_accounts.csv,frmtrm_q_nm,Period or field name returned by Open DART.,,Direct Open DART field.
+financial_accounts.csv,ord,Open DART or derived field: ord.,,See source CSV and README.
+financial_accounts.csv,reprt_code,Open DART or derived field: reprt_code.,,See source CSV and README.
+financial_accounts.csv,source_endpoint,Open DART endpoint used to obtain the row.,,Direct field unless noted.
+financial_accounts.csv,thstrm_add_amount,Amount returned by Open DART.,KRW,Direct Open DART field.
+financial_accounts.csv,thstrm_amount,Amount returned by Open DART.,KRW,Direct Open DART field.
+financial_accounts.csv,thstrm_nm,Period or field name returned by Open DART.,,Direct Open DART field.
+financial_highlights_long.csv,company_id,Stable project identifier for the company.,,Direct field unless noted.
+financial_highlights_long.csv,company_name,English display name used in the analysis.,,Direct field unless noted.
+financial_highlights_long.csv,corp_code,Eight-digit Open DART corporation code.,,Direct field unless noted.
+financial_highlights_long.csv,stock_code,Six-digit Korea Exchange stock code.,,Direct field unless noted.
+financial_highlights_long.csv,period_label,Analysis period label: FY2025 or Q1_2026.,,Direct field unless noted.
+financial_highlights_long.csv,business_year,Business year supplied to the Open DART API.,,Direct field unless noted.
+financial_highlights_long.csv,report_code,"Open DART report code (11011 annual, 11013 first quarter).",,Direct field unless noted.
+financial_highlights_long.csv,report_name,English description of the report type.,,Direct field unless noted.
+financial_highlights_long.csv,rcept_no,Fourteen-digit Open DART filing receipt number.,,Direct field unless noted.
+financial_highlights_long.csv,fs_div,Financial statement scope; CFS means consolidated.,,Direct field unless noted.
+financial_highlights_long.csv,fs_nm,Financial statement scope name returned by Open DART.,,Direct field unless noted.
+financial_highlights_long.csv,sj_div,"Statement code such as BS, IS, CIS, CF, or SCE.",,Direct field unless noted.
+financial_highlights_long.csv,sj_nm,Financial statement name returned by Open DART.,,Direct field unless noted.
+financial_highlights_long.csv,account_nm,Account name returned by Open DART.,,Direct field unless noted.
+financial_highlights_long.csv,bfefrmtrm_amount,Amount returned by Open DART.,KRW,Direct Open DART field.
+financial_highlights_long.csv,bfefrmtrm_dt,Period or date description returned by Open DART.,,Direct Open DART field.
+financial_highlights_long.csv,bfefrmtrm_nm,Period or field name returned by Open DART.,,Direct Open DART field.
+financial_highlights_long.csv,bsns_year,Open DART or derived field: bsns_year.,,See source CSV and README.
+financial_highlights_long.csv,currency,Currency reported by Open DART.,,Direct field unless noted.
+financial_highlights_long.csv,frmtrm_add_amount,Amount returned by Open DART.,KRW,Direct Open DART field.
+financial_highlights_long.csv,frmtrm_amount,Amount returned by Open DART.,KRW,Direct Open DART field.
+financial_highlights_long.csv,frmtrm_dt,Period or date description returned by Open DART.,,Direct Open DART field.
+financial_highlights_long.csv,frmtrm_nm,Period or field name returned by Open DART.,,Direct Open DART field.
+financial_highlights_long.csv,ord,Open DART or derived field: ord.,,See source CSV and README.
+financial_highlights_long.csv,reprt_code,Open DART or derived field: reprt_code.,,See source CSV and README.
+financial_highlights_long.csv,source_endpoint,Open DART endpoint used to obtain the row.,,Direct field unless noted.
+financial_highlights_long.csv,thstrm_add_amount,Amount returned by Open DART.,KRW,Direct Open DART field.
+financial_highlights_long.csv,thstrm_amount,Amount returned by Open DART.,KRW,Direct Open DART field.
+financial_highlights_long.csv,thstrm_dt,Period or date description returned by Open DART.,,Direct Open DART field.
+financial_highlights_long.csv,thstrm_nm,Period or field name returned by Open DART.,,Direct Open DART field.
+financial_summary.csv,company_id,Stable project identifier for the company.,,Direct field unless noted.
+financial_summary.csv,company_name,English display name used in the analysis.,,Direct field unless noted.
+financial_summary.csv,corp_code,Eight-digit Open DART corporation code.,,Direct field unless noted.
+financial_summary.csv,stock_code,Six-digit Korea Exchange stock code.,,Direct field unless noted.
+financial_summary.csv,market,Primary Korea Exchange market segment.,,Direct field unless noted.
+financial_summary.csv,fy2025_revenue_krw,Fy2025 revenue krw.,KRW,Derived from the cited consolidated Open DART statement.
+financial_summary.csv,q1_2026_revenue_krw,Q1 2026 revenue krw.,KRW,Derived from the cited consolidated Open DART statement.
+financial_summary.csv,q1_2025_revenue_krw,Q1 2025 revenue krw.,KRW,Derived from the cited consolidated Open DART statement.
+financial_summary.csv,fy2025_operating_profit_krw,Fy2025 operating profit krw.,KRW,Derived from the cited consolidated Open DART statement.
+financial_summary.csv,q1_2026_operating_profit_krw,Q1 2026 operating profit krw.,KRW,Derived from the cited consolidated Open DART statement.
+financial_summary.csv,q1_2025_operating_profit_krw,Q1 2025 operating profit krw.,KRW,Derived from the cited consolidated Open DART statement.
+financial_summary.csv,fy2025_net_income_krw,Fy2025 net income krw.,KRW,Derived from the cited consolidated Open DART statement.
+financial_summary.csv,q1_2026_net_income_krw,Q1 2026 net income krw.,KRW,Derived from the cited consolidated Open DART statement.
+financial_summary.csv,q1_2025_net_income_krw,Q1 2025 net income krw.,KRW,Derived from the cited consolidated Open DART statement.
+financial_summary.csv,fy2025_assets_krw,Fy2025 assets krw.,KRW,Derived from the cited consolidated Open DART statement.
+financial_summary.csv,q1_2026_assets_krw,Q1 2026 assets krw.,KRW,Derived from the cited consolidated Open DART statement.
+financial_summary.csv,fy2025_liabilities_krw,Fy2025 liabilities krw.,KRW,Derived from the cited consolidated Open DART statement.
+financial_summary.csv,q1_2026_liabilities_krw,Q1 2026 liabilities krw.,KRW,Derived from the cited consolidated Open DART statement.
+financial_summary.csv,fy2025_equity_krw,Fy2025 equity krw.,KRW,Derived from the cited consolidated Open DART statement.
+financial_summary.csv,q1_2026_equity_krw,Q1 2026 equity krw.,KRW,Derived from the cited consolidated Open DART statement.
+financial_summary.csv,q1_2026_cash_krw,Q1 2026 cash krw.,KRW,Derived from the cited consolidated Open DART statement.
+financial_summary.csv,fy2025_operating_margin_pct,Fy2025 operating margin pct.,percent,Calculated from published KRW values; see README methodology.
+financial_summary.csv,q1_2025_operating_margin_pct,Q1 2025 operating margin pct.,percent,Calculated from published KRW values; see README methodology.
+financial_summary.csv,q1_2026_operating_margin_pct,Q1 2026 operating margin pct.,percent,Calculated from published KRW values; see README methodology.
+financial_summary.csv,q1_revenue_yoy_pct,Q1 revenue yoy pct.,percent,Calculated from published KRW values; see README methodology.
+financial_summary.csv,q1_operating_profit_change_krw,Q1 operating profit change krw.,KRW,Derived from the cited consolidated Open DART statement.
+financial_summary.csv,q1_operating_profit_change_pct,Q1 operating profit change pct.,percent,Calculated from published KRW values; see README methodology.
+financial_summary.csv,q1_profit_direction,Categorical operating-profit movement versus Q1 2025.,,Direct field unless noted.
+financial_summary.csv,q1_2026_debt_to_equity_pct,Q1 2026 debt to equity pct.,percent,Calculated from published KRW values; see README methodology.
+financial_summary.csv,q1_2026_equity_ratio_pct,Q1 2026 equity ratio pct.,percent,Calculated from published KRW values; see README methodology.
+financial_summary.csv,q1_2026_cash_to_assets_pct,Q1 2026 cash to assets pct.,percent,Calculated from published KRW values; see README methodology.

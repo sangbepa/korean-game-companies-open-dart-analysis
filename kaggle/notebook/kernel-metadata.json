@@ -1,0 +1,16 @@
+{
+  "id": "sangbepa/korean-game-companies-financial-health-2025-2026",
+  "title": "Korean Game Companies: Financial Health 2025-2026",
+  "code_file": "korean_game_companies_financial_health.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "false",
+  "enable_gpu": "false",
+  "enable_internet": "false",
+  "dataset_sources": [
+    "sangbepa/korean-game-companies-financials-2025-2026"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}
