@@ -488,6 +488,9 @@ candidates = [
     Path("../dataset"),
     Path("kaggle/dataset"),
 ]
+candidates.extend(
+    path.parent for path in Path("/kaggle/input").rglob("financial_summary.csv")
+)
 DATA_DIR = next((path for path in candidates if (path / "financial_summary.csv").exists()), None)
 if DATA_DIR is None:
     raise FileNotFoundError("Could not locate the Kaggle dataset directory")
