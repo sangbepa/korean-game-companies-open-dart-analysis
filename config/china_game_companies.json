@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "period": {
+    "start_year": 2022,
+    "end_year": 2025,
+    "quarter": 4
+  },
+  "notes": [
+    "BaoStock는 계정과 API 키 없이 사용할 수 있는 무료 A주 지표 API다.",
+    "BaoStock 지표는 감사 재무제표 원문 전체가 아니므로 투자 분석 전 거래소 공시와 대조한다.",
+    "홍콩·미국 상장 3개사는 이번 1차 파이프라인에서 공식 공시 경로만 등록하고 수치 자동화는 후속 단계로 둔다."
+  ],
+  "companies": [
+    {
+      "company_id": "century_huatong",
+      "legal_name": "Zhejiang Century Huatong Group Co., Ltd.",
+      "display_name": "Century Huatong",
+      "name_zh": "世纪华通",
+      "name_ko": "세기화통",
+      "exchange": "SZSE",
+      "ticker": "002602",
+      "reporting_currency": "CNY",
+      "financial_collection_method": "baostock",
+      "baostock_code": "sz.002602",
+      "official_filing_url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225261914.PDF",
+      "scope_note_ko": "게임 외 AI 클라우드 데이터센터와 자동차부품 사업을 포함한 연결 실적"
+    },
+    {
+      "company_id": "perfect_world_cn",
+      "legal_name": "Perfect World Co., Ltd.",
+      "display_name": "Perfect World",
+      "name_zh": "完美世界",
+      "name_ko": "완미세계",
+      "exchange": "SZSE",
+      "ticker": "002624",
+      "reporting_currency": "CNY",
+      "financial_collection_method": "baostock",
+      "baostock_code": "sz.002624",
+      "official_filing_url": "https://www.pwrd.com/cn/news/press/p2026/20260428/88831.shtml",
+      "scope_note_ko": "게임과 영상 사업을 포함한 연결 실적"
+    },
+    {
+      "company_id": "kingnet",
+      "legal_name": "Kingnet Network Co., Ltd.",
+      "display_name": "Kingnet",
+      "name_zh": "恺英网络",
+      "name_ko": "카이잉네트워크",
+      "exchange": "SZSE",
+      "ticker": "002517",
+      "reporting_currency": "CNY",
+      "financial_collection_method": "baostock",
+      "baostock_code": "sz.002517",
+      "official_filing_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225225838.PDF",
+      "scope_note_ko": "게임 개발·퍼블리싱·IP 사업 중심 연결 실적"
+    },
+    {
+      "company_id": "gbits",
+      "legal_name": "G-bits Network Technology (Xiamen) Co., Ltd.",
+      "display_name": "G-bits",
+      "name_zh": "吉比特",
+      "name_ko": "지비트",
+      "exchange": "SSE",
+      "ticker": "603444",
+      "reporting_currency": "CNY",
+      "financial_collection_method": "baostock",
+      "baostock_code": "sh.603444",
+      "official_filing_url": "https://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260326/8d926b94356447d9a00a195d88b41b9d.PDF",
+      "scope_note_ko": "게임 개발·퍼블리싱 중심 연결 실적"
+    },
+    {
+      "company_id": "thirty_seven_interactive",
+      "legal_name": "37 Interactive Entertainment Network Technology Group Co., Ltd.",
+      "display_name": "37 Interactive Entertainment",
+      "name_zh": "三七互娱",
+      "name_ko": "37인터랙티브엔터테인먼트",
+      "exchange": "SZSE",
+      "ticker": "002555",
+      "reporting_currency": "CNY",
+      "financial_collection_method": "baostock",
+      "baostock_code": "sz.002555",
+      "official_filing_url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225109788.PDF",
+      "scope_note_ko": "게임 개발·퍼블리싱 중심 연결 실적"
+    },
+    {
+      "company_id": "tencent",
+      "legal_name": "Tencent Holdings Limited",
+      "display_name": "Tencent",
+      "name_zh": "腾讯控股",
+      "name_ko": "텐센트",
+      "exchange": "HKEX",
+      "ticker": "00700",
+      "reporting_currency": "CNY",
+      "financial_collection_method": "official_pdf",
+      "official_filing_url": "https://static.www.tencent.com/uploads/2026/04/09/62d786fcf3d3c8cb7e54791ee95439ac.pdf",
+      "scope_note_ko": "게임 외 소셜네트워크·광고·핀테크·기업서비스를 포함한 그룹 실적"
+    },
+    {
+      "company_id": "netease",
+      "legal_name": "NetEase, Inc.",
+      "display_name": "NetEase",
+      "name_zh": "网易",
+      "name_ko": "넷이즈",
+      "exchange": "HKEX/NASDAQ",
+      "ticker": "09999/NTES",
+      "reporting_currency": "CNY",
+      "financial_collection_method": "sec_ixbrl",
+      "official_filing_url": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+      "scope_note_ko": "게임 외 Youdao·Cloud Music·기타 사업을 포함한 그룹 실적"
+    },
+    {
+      "company_id": "xd_inc",
+      "legal_name": "XD Inc.",
+      "display_name": "XD Inc.",
+      "name_zh": "心动公司",
+      "name_ko": "심동회사",
+      "exchange": "HKEX",
+      "ticker": "02400",
+      "reporting_currency": "CNY",
+      "financial_collection_method": "official_pdf",
+      "official_filing_url": "https://img.xdcdn.net/xdwp/2026/04/20260429131058489.pdf",
+      "scope_note_ko": "게임과 TapTap 플랫폼을 포함한 그룹 실적"
+    }
+  ]
+}

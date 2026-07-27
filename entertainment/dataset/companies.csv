@@ -1,0 +1,5 @@
+company_id,company_name,corp_code,stock_code,market,reporting_currency
+hybe,HYBE,01204056,352820,KOSPI,KRW
+sm_entertainment,SM Entertainment,00260930,041510,KOSDAQ,KRW
+jyp_entertainment,JYP Entertainment,00258689,035900,KOSDAQ,KRW
+yg_entertainment,YG Entertainment,00613318,122870,KOSDAQ,KRW

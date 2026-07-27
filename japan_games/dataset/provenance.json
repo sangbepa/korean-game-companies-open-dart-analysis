@@ -1,0 +1,37 @@
+{
+  "company_count": 1,
+  "completed_at_utc": "2026-07-27T12:15:04.188660Z",
+  "edinet_api_status": "collected",
+  "edinet_document_count": 4,
+  "edinet_xbrl_archive_count": 4,
+  "financial_row_count": 4,
+  "financial_status_counts": {
+    "collected_official_ir": 4
+  },
+  "limitations_ko": [
+    "FY 표기는 시작연도 기준이며 FY2024는 2024년 4월부터 2025년 3월까지다.",
+    "금액 단위는 백만 엔이며 연결 기준이다.",
+    "캡콤 전체 실적에는 아케이드·오락기기·기타 사업이 포함된다.",
+    "정규화 수치는 공식 IR 표에서 수집하고 유가증권보고서 PDF를 원문 검증용으로 함께 보존한다."
+  ],
+  "period": {
+    "end_fiscal_year": 2025,
+    "fiscal_year_end_month": 3,
+    "fiscal_year_start_month": 4,
+    "label_note_ko": "FY2022는 2022년 4월 1일부터 2023년 3월 31일까지를 뜻한다.",
+    "start_fiscal_year": 2022
+  },
+  "raw_document_count": 9,
+  "raw_download_error_count": 0,
+  "raw_snapshot_path": "japan_game_lake/raw/run_id=20260727T121434Z",
+  "release_annotation_count": 4,
+  "run_id": "20260727T121434Z",
+  "schema_version": 1,
+  "sources": {
+    "normalized_financials": "Capcom official IR Euroland structured table",
+    "optional_metadata": "EDINET API v2 document list",
+    "primary_filings": "Annual securities report PDFs published by Capcom IR after EDINET submission",
+    "release_annotations": "Capcom official product and financial announcements"
+  },
+  "started_at_utc": "2026-07-27T12:14:34.869971Z"
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "coverage": {
+    "start_fiscal_year": 2022,
+    "end_fiscal_year": 2025,
+    "selection_rule_ko": "회사의 4월~다음 해 3월 회계연도 안에서 재무 변동 해석에 유용한 대표 출시작을 최소 1건 선정한다. 완전한 출시작 목록은 아니다."
+  },
+  "releases": [
+    {
+      "company_id": "capcom",
+      "fiscal_year": 2022,
+      "title": "Monster Hunter Rise: Sunbreak",
+      "title_ja": "モンスターハンターライズ：サンブレイク",
+      "release_date": "2022-06-30",
+      "release_date_precision": "day",
+      "release_event": "expansion_launch",
+      "release_scope": "Global",
+      "platform": "Nintendo Switch/PC",
+      "source_type": "official_company_news",
+      "source_url": "https://www.capcom.co.jp/ir/english/news/html/e220705.html",
+      "annotation_ko": "FY2022의 대표 대형 확장팩. 출시 초기 200만 장을 판매하며 신작과 본편·카탈로그 판매의 동반 상승을 이끌었다."
+    },
+    {
+      "company_id": "capcom",
+      "fiscal_year": 2023,
+      "title": "Street Fighter 6",
+      "title_ja": "ストリートファイター6",
+      "release_date": "2023-06-02",
+      "release_date_precision": "day",
+      "release_event": "commercial_launch",
+      "release_scope": "Global",
+      "platform": "PlayStation/Xbox/PC",
+      "source_type": "official_company_news",
+      "source_url": "https://www.capcom.co.jp/ir/english/news/pdf/e230221.pdf",
+      "annotation_ko": "7년 만의 시리즈 신작. 신규 이용자용 모드와 e스포츠 운영을 결합해 장기 판매형 격투 IP를 확장한 FY2023 대표작."
+    },
+    {
+      "company_id": "capcom",
+      "fiscal_year": 2024,
+      "title": "Monster Hunter Wilds",
+      "title_ja": "モンスターハンターワイルズ",
+      "release_date": "2025-02-28",
+      "release_date_precision": "day",
+      "release_event": "commercial_launch",
+      "release_scope": "Global",
+      "platform": "PlayStation 5/Xbox Series/PC",
+      "source_type": "official_company_news",
+      "source_url": "https://www.capcom.co.jp/ir/english/news/pdf/e240925.pdf",
+      "annotation_ko": "FY2024 말 출시 후 한 달 만에 1,000만 장을 넘긴 대형 신작. 신작 매출과 몬스터헌터 카탈로그 재판매 효과를 함께 본다."
+    },
+    {
+      "company_id": "capcom",
+      "fiscal_year": 2025,
+      "title": "Resident Evil Requiem",
+      "title_ja": "バイオハザード レクイエム",
+      "release_date": "2026-02-27",
+      "release_date_precision": "day",
+      "release_event": "commercial_launch",
+      "release_scope": "Global",
+      "platform": "PlayStation 5/Xbox Series/Nintendo Switch 2/PC",
+      "source_type": "official_company_news",
+      "source_url": "https://www.capcom.co.jp/ir/english/news/pdf/e260316.pdf",
+      "annotation_ko": "FY2025 4분기 출시 후 시리즈 최단기간 600만 장을 달성한 대표작. 신작과 기존 Resident Evil 카탈로그의 동반 성장을 해석한다."
+    }
+  ]
+}

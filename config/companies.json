@@ -178,6 +178,27 @@
       ]
     },
     {
+      "company_id": "tencent",
+      "legal_name": "Tencent Holdings Limited",
+      "display_name": "Tencent",
+      "aliases": ["TENCENT", "Tencent Holdings"],
+      "country_code": "KY",
+      "reporting_currency": "CNY",
+      "fiscal_year_end_month": 12,
+      "official_website": "https://www.tencent.com/en-us/investors/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "00700",
+          "market": "HKEX Main Board",
+          "is_primary": true,
+          "source_url": "https://www1.hkexnews.hk/search/titlesearch.xhtml?category=0&lang=EN&market=SEHK&stockId=7609",
+          "verification_status": "verified_official_exchange"
+        }
+      ]
+    },
+    {
       "company_id": "pearl_abyss",
       "legal_name": "Pearl Abyss Corp.",
       "display_name": "Pearl Abyss",

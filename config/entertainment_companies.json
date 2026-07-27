@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "companies": [
+    {
+      "company_id": "hybe",
+      "legal_name": "HYBE Co., Ltd.",
+      "display_name": "HYBE",
+      "aliases": ["하이브"],
+      "country_code": "KR",
+      "reporting_currency": "KRW",
+      "fiscal_year_end_month": 12,
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "352820",
+          "market": "KRX KOSPI",
+          "is_primary": true
+        },
+        {
+          "scheme": "dart_corp_code",
+          "value": "01204056",
+          "is_primary": false,
+          "source_url": "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=01204056",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "sm_entertainment",
+      "legal_name": "SM Entertainment Co., Ltd.",
+      "display_name": "SM Entertainment",
+      "aliases": ["에스엠", "SM"],
+      "country_code": "KR",
+      "reporting_currency": "KRW",
+      "fiscal_year_end_month": 12,
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "041510",
+          "market": "KRX KOSDAQ",
+          "is_primary": true
+        },
+        {
+          "scheme": "dart_corp_code",
+          "value": "00260930",
+          "is_primary": false,
+          "source_url": "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=00260930",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "jyp_entertainment",
+      "legal_name": "JYP Entertainment Corporation",
+      "display_name": "JYP Entertainment",
+      "aliases": ["JYP Ent."],
+      "country_code": "KR",
+      "reporting_currency": "KRW",
+      "fiscal_year_end_month": 12,
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "035900",
+          "market": "KRX KOSDAQ",
+          "is_primary": true
+        },
+        {
+          "scheme": "dart_corp_code",
+          "value": "00258689",
+          "is_primary": false,
+          "source_url": "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=00258689",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "yg_entertainment",
+      "legal_name": "YG Entertainment Inc.",
+      "display_name": "YG Entertainment",
+      "aliases": ["와이지엔터테인먼트", "YG"],
+      "country_code": "KR",
+      "reporting_currency": "KRW",
+      "fiscal_year_end_month": 12,
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "122870",
+          "market": "KRX KOSDAQ",
+          "is_primary": true
+        },
+        {
+          "scheme": "dart_corp_code",
+          "value": "00613318",
+          "is_primary": false,
+          "source_url": "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=00613318",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    }
+  ]
+}

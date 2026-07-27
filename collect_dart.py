@@ -47,6 +47,8 @@ class Company:
     display_name: str
     corp_code: str
     stock_code: str | None
+    market: str | None = None
+    reporting_currency: str | None = None
 
 
 def utc_now() -> datetime:
@@ -127,12 +129,28 @@ def load_companies(path: Path) -> list[Company]:
             if item.get("scheme") == "ticker"
             and str(item.get("market", "")).startswith("KRX")
         ]
+        stock_markets = [
+            str(item.get("market", ""))
+            for item in identifiers
+            if item.get("scheme") == "ticker"
+            and str(item.get("market", "")).startswith("KRX")
+        ]
         companies.append(
             Company(
                 company_id=company_id,
                 display_name=display_name,
                 corp_code=corp_codes[0],
                 stock_code=stock_codes[0] if stock_codes else None,
+                market=(
+                    stock_markets[0].removeprefix("KRX ")
+                    if stock_markets
+                    else None
+                ),
+                reporting_currency=(
+                    str(raw["reporting_currency"])
+                    if raw.get("reporting_currency")
+                    else None
+                ),
             )
         )
         seen_ids.add(company_id)

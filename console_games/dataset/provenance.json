@@ -1,0 +1,34 @@
+{
+  "api_key_persisted": false,
+  "api_request_count": 4,
+  "collected_at": "2026-07-27T05:42:57.110144Z",
+  "company_count": 1,
+  "currencies": [
+    "KRW"
+  ],
+  "currency": "KRW",
+  "periods": [
+    {
+      "business_year": "2025",
+      "period_label": "FY2025",
+      "report_code": "11011",
+      "report_name": "Annual report"
+    },
+    {
+      "business_year": "2026",
+      "period_label": "Q1_2026",
+      "report_code": "11013",
+      "report_name": "First-quarter report"
+    }
+  ],
+  "row_counts": {
+    "companies.csv": 1,
+    "disclosures_2026.csv": 2,
+    "financial_accounts.csv": 404,
+    "financial_highlights_long.csv": 32
+  },
+  "schema_version": 1,
+  "source": "Financial Supervisory Service Open DART",
+  "source_base_url": "https://opendart.fss.or.kr/api",
+  "statement_scope": "Consolidated financial statements (CFS)"
+}

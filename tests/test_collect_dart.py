@@ -65,6 +65,47 @@ class DartCollectorTests(unittest.TestCase):
         self.assertEqual(len(companies), 8)
         self.assertNotIn("nexon", {company.company_id for company in companies})
         self.assertEqual(companies[0].corp_code, "00261443")
+        self.assertEqual(companies[0].market, "KOSPI")
+        self.assertEqual(companies[0].reporting_currency, "KRW")
+
+    def test_entertainment_company_config_extracts_big_four(self) -> None:
+        config = (
+            Path(__file__).resolve().parents[1]
+            / "config"
+            / "entertainment_companies.json"
+        )
+        companies = load_companies(config)
+        self.assertEqual(len(companies), 4)
+        self.assertEqual(
+            {company.stock_code for company in companies},
+            {"352820", "041510", "035900", "122870"},
+        )
+        self.assertEqual({company.reporting_currency for company in companies}, {"KRW"})
+
+    def test_food_company_config_extracts_comparison_group(self) -> None:
+        config = Path(__file__).resolve().parents[1] / "config" / "food_companies.json"
+        companies = load_companies(config)
+        self.assertEqual(len(companies), 4)
+        self.assertEqual(
+            {company.stock_code for company in companies},
+            {"003230", "004370", "271560", "007310"},
+        )
+        self.assertEqual({company.market for company in companies}, {"KOSPI"})
+        self.assertEqual({company.reporting_currency for company in companies}, {"KRW"})
+
+    def test_console_game_config_extracts_shift_up(self) -> None:
+        config = (
+            Path(__file__).resolve().parents[1]
+            / "config"
+            / "console_game_companies.json"
+        )
+        companies = load_companies(config)
+        self.assertEqual(len(companies), 1)
+        self.assertEqual(companies[0].company_id, "shift_up")
+        self.assertEqual(companies[0].corp_code, "01384787")
+        self.assertEqual(companies[0].stock_code, "462870")
+        self.assertEqual(companies[0].market, "KOSPI")
+        self.assertEqual(companies[0].reporting_currency, "KRW")
 
     def test_date_validation_rejects_impossible_dates(self) -> None:
         self.assertEqual(validate_date("20260726", "date"), "20260726")

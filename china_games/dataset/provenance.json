@@ -1,0 +1,33 @@
+{
+  "baostock_company_count": 5,
+  "company_count": 8,
+  "completed_at_utc": "2026-07-27T07:02:00.387455Z",
+  "financial_row_count": 20,
+  "financial_status_counts": {
+    "collected_baostock": 19,
+    "partial_baostock": 1
+  },
+  "limitations_ko": [
+    "BaoStock 값은 표준화된 재무비율·요약지표이며 감사 재무제표 전체 계정이 아니다.",
+    "홍콩·미국 상장 3개사의 수치는 아직 패널에 자동 적재하지 않았다.",
+    "대표작 주석은 완전한 출시작 목록이 아니며, 재무 변동 해석용으로 회사별·연도별 대표 이벤트를 선정했다.",
+    "사업 범위가 다른 그룹사 간 총매출·이익을 비교할 때 scope_note_ko를 함께 확인해야 한다."
+  ],
+  "period": {
+    "end_year": 2025,
+    "quarter": 4,
+    "start_year": 2022
+  },
+  "raw_record_count": 97,
+  "raw_snapshot_path": "china_game_lake/raw/baostock/run_id=20260727T070128Z/responses.jsonl",
+  "registered_official_filing_company_count": 3,
+  "release_annotation_count": 32,
+  "run_id": "20260727T070128Z",
+  "schema_version": 1,
+  "sources": {
+    "financial_document_authority": "CNINFO, HKEX/company IR, and SEC filing URLs retained per company",
+    "financial_indicators": "BaoStock 0.9.x public API",
+    "release_annotations": "Official annual/quarterly reports, company news, investor presentations, and official store announcements"
+  },
+  "started_at_utc": "2026-07-27T07:01:28.900020Z"
+}

@@ -1,0 +1,3 @@
+company_id,corp_code,stock_code,rcept_no,corp_cls,corp_name,flr_nm,rcept_dt,report_nm,rm,viewer_url
+shift_up,01384787,462870,20260318001672,Y,시프트업,시프트업,20260318,사업보고서 (2025.12),연,https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001672
+shift_up,01384787,462870,20260514001484,Y,시프트업,시프트업,20260514,분기보고서 (2026.03),,https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514001484

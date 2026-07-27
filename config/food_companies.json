@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "companies": [
+    {
+      "company_id": "samyang_foods",
+      "legal_name": "Samyang Foods Inc.",
+      "display_name": "Samyang Foods",
+      "aliases": ["삼양식품"],
+      "country_code": "KR",
+      "reporting_currency": "KRW",
+      "fiscal_year_end_month": 12,
+      "official_website": "https://www.samyangfoods.com/eng/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "003230",
+          "market": "KRX KOSPI",
+          "is_primary": true
+        },
+        {
+          "scheme": "dart_corp_code",
+          "value": "00126955",
+          "is_primary": false,
+          "source_url": "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=00126955",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "nongshim",
+      "legal_name": "NONGSHIM CO., LTD.",
+      "display_name": "Nongshim",
+      "aliases": ["농심"],
+      "country_code": "KR",
+      "reporting_currency": "KRW",
+      "fiscal_year_end_month": 12,
+      "official_website": "https://www.nongshim.com/eng/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "004370",
+          "market": "KRX KOSPI",
+          "is_primary": true
+        },
+        {
+          "scheme": "dart_corp_code",
+          "value": "00108241",
+          "is_primary": false,
+          "source_url": "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=00108241",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "orion",
+      "legal_name": "ORION Corp.",
+      "display_name": "Orion",
+      "aliases": ["오리온"],
+      "country_code": "KR",
+      "reporting_currency": "KRW",
+      "fiscal_year_end_month": 12,
+      "official_website": "https://www.orionworld.com/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "271560",
+          "market": "KRX KOSPI",
+          "is_primary": true
+        },
+        {
+          "scheme": "dart_corp_code",
+          "value": "01238169",
+          "is_primary": false,
+          "source_url": "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=01238169",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "ottogi",
+      "legal_name": "OTOKI CORPORATION",
+      "display_name": "Ottogi",
+      "aliases": ["오뚜기", "OTOKI"],
+      "country_code": "KR",
+      "reporting_currency": "KRW",
+      "fiscal_year_end_month": 12,
+      "official_website": "https://www.ottogi.co.kr/eng/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "007310",
+          "market": "KRX KOSPI",
+          "is_primary": true
+        },
+        {
+          "scheme": "dart_corp_code",
+          "value": "00141529",
+          "is_primary": false,
+          "source_url": "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=00141529",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    }
+  ]
+}
