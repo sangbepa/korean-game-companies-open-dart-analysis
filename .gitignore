@@ -6,6 +6,7 @@ __pycache__/
 .venv/
 venv/
 .pytest_cache/
+.playwright-mcp/
 .coverage
 htmlcov/
 .ipynb_checkpoints/
@@ -13,6 +14,8 @@ htmlcov/
 # Downloaded source material is append-only local data, not source code.
 data_lake/
 game_accounting_lake/
+china_game_lake/
+japan_game_lake/
 dart_data/
 
 # Secrets must stay in the environment, never in this repository.
@@ -20,3 +23,4 @@ dart_data/
 .env.*
 kaggle.json
 .kaggle/
+.secrets/

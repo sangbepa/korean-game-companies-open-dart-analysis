@@ -57,6 +57,8 @@ def write_csv(path: Path, rows: Iterable[dict[str, Any]]) -> None:
         "company_name",
         "corp_code",
         "stock_code",
+        "market",
+        "reporting_currency",
         "period_label",
         "business_year",
         "report_code",
@@ -132,9 +134,8 @@ def company_rows(config_path: Path) -> list[dict[str, str]]:
             "company_name": company.display_name,
             "corp_code": company.corp_code,
             "stock_code": company.stock_code or "",
-            "market": "KOSPI"
-            if company.stock_code in {"036570", "251270", "259960"}
-            else "KOSDAQ",
+            "market": company.market or "",
+            "reporting_currency": company.reporting_currency or "",
         }
         for company in companies
     ]
@@ -190,6 +191,7 @@ def collect(
             "company_name": company.display_name,
             "corp_code": company.corp_code,
             "stock_code": company.stock_code or "",
+            "reporting_currency": company.reporting_currency or "",
         }
         for period in PERIODS:
             common_parameters = {
@@ -235,6 +237,13 @@ def collect(
     write_csv(dataset_dir / "disclosures_2026.csv", disclosures_output)
 
     collected_at = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+    currencies = sorted(
+        {
+            company.reporting_currency
+            for company in companies
+            if company.reporting_currency
+        }
+    )
     manifest = {
         "schema_version": 1,
         "collected_at": collected_at,
@@ -250,7 +259,8 @@ def collect(
             "disclosures_2026.csv": len(disclosures_output),
         },
         "statement_scope": "Consolidated financial statements (CFS)",
-        "currency": "KRW",
+        "currency": currencies[0] if len(currencies) == 1 else None,
+        "currencies": currencies,
         "api_key_persisted": False,
     }
     atomic_json_write(dataset_dir / "provenance.json", manifest)

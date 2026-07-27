@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "period": {
+    "start_fiscal_year": 2022,
+    "end_fiscal_year": 2025,
+    "fiscal_year_start_month": 4,
+    "fiscal_year_end_month": 3,
+    "label_note_ko": "FY2022는 2022년 4월 1일부터 2023년 3월 31일까지를 뜻한다."
+  },
+  "notes": [
+    "정규화 재무지표는 회사 공식 IR 페이지의 Euroland 표에서 무료로 수집한다.",
+    "회사 IR에 게시된 유가증권보고서 PDF도 원본으로 보존하며, 이 문서는 EDINET 제출본을 출력한 것이다.",
+    "EDINET API는 Version 2부터 API 키가 필요하므로 키가 있는 경우에만 보조 메타데이터 수집을 활성화한다."
+  ],
+  "companies": [
+    {
+      "company_id": "capcom",
+      "legal_name": "CAPCOM CO., LTD.",
+      "display_name": "Capcom",
+      "name_ja": "株式会社カプコン",
+      "name_ko": "캡콤",
+      "exchange": "TSE Prime",
+      "ticker": "9697",
+      "edinet_code": "E02417",
+      "reporting_currency": "JPY",
+      "financial_collection_method": "official_ir_euroland",
+      "official_ir_data_url": "https://asia.tools.euroland.com/tools/ia/?companycode=jp-cpk&lang=en-GB&t=0&t0=0&v=ad_r2021",
+      "official_filing_index_url": "https://www.capcom.co.jp/ir/data/report.html",
+      "scope_note_ko": "디지털 콘텐츠 외 아케이드 운영·오락기기·기타 사업을 포함한 연결 실적",
+      "official_filing_urls": {
+        "2022": "https://www.capcom.co.jp/ir/data/pdf/yuuka/2023/full/yuuka_2023_full_01.pdf",
+        "2023": "https://www.capcom.co.jp/ir/data/pdf/yuuka/2024/yuuka_2024_full_01.pdf",
+        "2024": "https://www.capcom.co.jp/ir/data/pdf/yuuka/2025/yuuka_2025_full_01.pdf",
+        "2025": "https://www.capcom.co.jp/ir/data/pdf/yuuka/2026/yuuka_2026_full_01.pdf"
+      },
+      "edinet_search_windows": {
+        "2022": ["2023-06-19", "2023-06-26"],
+        "2023": ["2024-06-17", "2024-06-24"],
+        "2024": ["2025-06-16", "2025-06-23"],
+        "2025": ["2026-06-14", "2026-06-19"]
+      }
+    }
+  ]
+}

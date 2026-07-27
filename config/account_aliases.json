@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "mapping_version": "2026-07-26.1",
+  "candidate_only": true,
+  "accounts": [
+    {
+      "account_id": "revenue",
+      "canonical_name": "Revenue",
+      "patterns": [
+        "^revenue$",
+        "^net sales$",
+        "^sales$",
+        "^operating revenue$",
+        "^매출액$",
+        "^매출$",
+        "^売上高$",
+        "^売上収益$"
+      ]
+    },
+    {
+      "account_id": "gross_profit",
+      "canonical_name": "Gross Profit",
+      "patterns": ["^gross profit$", "^매출총이익$", "^売上総利益$"]
+    },
+    {
+      "account_id": "operating_cost",
+      "canonical_name": "Operating Cost",
+      "patterns": [
+        "^operating cost$",
+        "^cost of sales$",
+        "^매출원가$",
+        "^영업비용$",
+        "^営業費用$"
+      ]
+    },
+    {
+      "account_id": "operating_income",
+      "canonical_name": "Operating Income",
+      "patterns": [
+        "^operating income$",
+        "^operating profit$",
+        "^영업이익$",
+        "^営業利益$"
+      ]
+    },
+    {
+      "account_id": "net_income",
+      "canonical_name": "Net Income",
+      "patterns": [
+        "^net income$",
+        "^profit loss$",
+        "^profit for the period$",
+        "^당기순이익$",
+        "^분기순이익$",
+        "^연결당기순이익$",
+        "^当期純利益$"
+      ]
+    },
+    {
+      "account_id": "research_and_development_expense",
+      "canonical_name": "Research and Development Expense",
+      "patterns": [
+        "^research and development expense[s]?$",
+        "^r&d expense[s]?$",
+        "^연구개발비$",
+        "^研究開発費$"
+      ]
+    },
+    {
+      "account_id": "advertising_expense",
+      "canonical_name": "Advertising Expense",
+      "patterns": [
+        "^advertising expense[s]?$",
+        "^marketing expense[s]?$",
+        "^광고선전비$",
+        "^広告宣伝費$"
+      ]
+    },
+    {
+      "account_id": "cash_and_cash_equivalents",
+      "canonical_name": "Cash and Cash Equivalents",
+      "patterns": [
+        "^cash and cash equivalents$",
+        "^현금및현금성자산$",
+        "^現金及び現金同等物$"
+      ]
+    },
+    {
+      "account_id": "intangible_assets",
+      "canonical_name": "Intangible Assets",
+      "patterns": ["^intangible assets$", "^무형자산$", "^無形資産$"]
+    },
+    {
+      "account_id": "deferred_revenue",
+      "canonical_name": "Deferred Revenue",
+      "patterns": [
+        "^deferred revenue$",
+        "^contract liabilities$",
+        "^계약부채$",
+        "^前受収益$",
+        "^契約負債$"
+      ]
+    },
+    {
+      "account_id": "total_assets",
+      "canonical_name": "Total Assets",
+      "patterns": ["^total assets$", "^자산총계$", "^資産合計$"]
+    },
+    {
+      "account_id": "total_liabilities",
+      "canonical_name": "Total Liabilities",
+      "patterns": ["^total liabilities$", "^부채총계$", "^負債合計$"]
+    },
+    {
+      "account_id": "total_equity",
+      "canonical_name": "Total Equity",
+      "patterns": ["^total equity$", "^자본총계$", "^純資産合計$"]
+    },
+    {
+      "account_id": "ebitda",
+      "canonical_name": "EBITDA",
+      "patterns": ["^ebitda$", "^adjusted ebitda$", "^조정 ebitda$"]
+    }
+  ]
+}

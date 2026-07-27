@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "companies": [
+    {
+      "company_id": "shift_up",
+      "legal_name": "SHIFT UP Corporation",
+      "display_name": "SHIFT UP",
+      "aliases": ["시프트업", "Shift Up"],
+      "country_code": "KR",
+      "reporting_currency": "KRW",
+      "fiscal_year_end_month": 12,
+      "official_website": "https://shiftup.co.kr/eng/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "462870",
+          "market": "KRX KOSPI",
+          "is_primary": true,
+          "source_url": "https://shiftup.co.kr/eng/ir/stock.php",
+          "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "dart_corp_code",
+          "value": "01384787",
+          "is_primary": false,
+          "source_url": "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=01384787",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    }
+  ]
+}
