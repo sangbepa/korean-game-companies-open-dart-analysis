@@ -9,6 +9,15 @@
       "country_code": "JP",
       "reporting_currency": "JPY",
       "fiscal_year_end_month": 12,
+      "accounting_standard": "IFRS",
+      "game_segments": [
+        {
+          "segment_id": "consolidated",
+          "definition_version": "all_operations",
+          "use_consolidated": true,
+          "aliases": []
+        }
+      ],
       "official_website": "https://www.nexon.co.jp/en/",
       "active": true,
       "identifiers": [
@@ -19,6 +28,425 @@
           "is_primary": true,
           "source_url": "https://www.nexon.co.jp/en/ir/stock-information/",
           "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "edinet_code",
+          "value": "E25850",
+          "is_primary": false,
+          "source_url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "nintendo",
+      "legal_name": "Nintendo Co., Ltd.",
+      "display_name": "Nintendo",
+      "aliases": ["NINTENDO"],
+      "country_code": "JP",
+      "reporting_currency": "JPY",
+      "fiscal_year_end_month": 3,
+      "accounting_standard": "J-GAAP",
+      "game_segments": [
+        {
+          "segment_id": "consolidated",
+          "definition_version": "all_operations",
+          "use_consolidated": true,
+          "aliases": []
+        }
+      ],
+      "official_website": "https://www.nintendo.co.jp/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "7974",
+          "market": "TSE Prime",
+          "is_primary": true,
+          "source_url": "https://www.nintendo.co.jp/ir/en/stock/information/index.html",
+          "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "edinet_code",
+          "value": "E02367",
+          "is_primary": false,
+          "source_url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "capcom",
+      "legal_name": "CAPCOM CO., LTD.",
+      "display_name": "Capcom",
+      "aliases": ["CAPCOM", "株式会社カプコン"],
+      "country_code": "JP",
+      "reporting_currency": "JPY",
+      "fiscal_year_end_month": 3,
+      "accounting_standard": "J-GAAP",
+      "game_segments": [
+        {
+          "segment_id": "digital_contents",
+          "definition_version": "current",
+          "use_consolidated": false,
+          "aliases": [
+            "Digital Contents",
+            "デジタルコンテンツ",
+            "Degital Contents",
+            "DegitalContentsReportableSegmentMember"
+          ]
+        }
+      ],
+      "official_website": "https://www.capcom.co.jp/ir/english/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "9697",
+          "market": "TSE Prime",
+          "is_primary": true,
+          "source_url": "https://www.capcom.co.jp/ir/english/",
+          "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "edinet_code",
+          "value": "E02417",
+          "is_primary": false,
+          "source_url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "square_enix",
+      "legal_name": "SQUARE ENIX HOLDINGS CO., LTD.",
+      "display_name": "Square Enix",
+      "aliases": ["SQUARE ENIX HOLDINGS", "株式会社スクウェア・エニックス・ホールディングス"],
+      "country_code": "JP",
+      "reporting_currency": "JPY",
+      "fiscal_year_end_month": 3,
+      "accounting_standard": "J-GAAP",
+      "game_segments": [
+        {
+          "segment_id": "digital_entertainment",
+          "definition_version": "current",
+          "use_consolidated": false,
+          "aliases": ["Digital Entertainment", "デジタルエンタテインメント"]
+        }
+      ],
+      "official_website": "https://www.hd.square-enix.com/eng/ir/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "9684",
+          "market": "TSE Prime",
+          "is_primary": true,
+          "source_url": "https://www.hd.square-enix.com/eng/ir/",
+          "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "edinet_code",
+          "value": "E04859",
+          "is_primary": false,
+          "source_url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "koei_tecmo",
+      "legal_name": "KOEI TECMO HOLDINGS CO., LTD.",
+      "display_name": "Koei Tecmo",
+      "aliases": ["KOEI TECMO", "株式会社コーエーテクモホールディングス"],
+      "country_code": "JP",
+      "reporting_currency": "JPY",
+      "fiscal_year_end_month": 3,
+      "accounting_standard": "J-GAAP",
+      "game_segments": [
+        {
+          "segment_id": "entertainment",
+          "definition_version": "current",
+          "use_consolidated": false,
+          "aliases": ["Entertainment", "エンタテインメント"]
+        }
+      ],
+      "official_website": "https://www.koeitecmo.co.jp/e/ir/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "3635",
+          "market": "TSE Prime",
+          "is_primary": true,
+          "source_url": "https://www.koeitecmo.co.jp/e/ir/",
+          "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "edinet_code",
+          "value": "E22460",
+          "is_primary": false,
+          "source_url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "konami",
+      "legal_name": "KONAMI GROUP CORPORATION",
+      "display_name": "Konami",
+      "aliases": ["KONAMI GROUP", "コナミグループ株式会社"],
+      "country_code": "JP",
+      "reporting_currency": "JPY",
+      "fiscal_year_end_month": 3,
+      "accounting_standard": "IFRS",
+      "game_segments": [
+        {
+          "segment_id": "digital_entertainment",
+          "definition_version": "current",
+          "use_consolidated": false,
+          "aliases": ["Digital Entertainment", "デジタルエンタテインメント"]
+        }
+      ],
+      "official_website": "https://www.konami.com/corporate/en/ir/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "9766",
+          "market": "TSE Prime",
+          "is_primary": true,
+          "source_url": "https://www.konami.com/corporate/en/ir/",
+          "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "edinet_code",
+          "value": "E01956",
+          "is_primary": false,
+          "source_url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "sega_sammy",
+      "legal_name": "SEGA SAMMY HOLDINGS INC.",
+      "display_name": "Sega Sammy",
+      "aliases": ["SEGA SAMMY", "セガサミーホールディングス株式会社"],
+      "country_code": "JP",
+      "reporting_currency": "JPY",
+      "fiscal_year_end_month": 3,
+      "accounting_standard": "J-GAAP",
+      "game_segments": [
+        {
+          "segment_id": "entertainment_contents",
+          "definition_version": "current",
+          "use_consolidated": false,
+          "aliases": ["Entertainment Contents", "エンタテインメントコンテンツ"]
+        }
+      ],
+      "official_website": "https://www.segasammy.co.jp/en/ir/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "6460",
+          "market": "TSE Prime",
+          "is_primary": true,
+          "source_url": "https://www.segasammy.co.jp/en/ir/",
+          "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "edinet_code",
+          "value": "E02475",
+          "is_primary": false,
+          "source_url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "bandai_namco",
+      "legal_name": "Bandai Namco Holdings Inc.",
+      "display_name": "Bandai Namco",
+      "aliases": ["BANDAI NAMCO HOLDINGS", "株式会社バンダイナムコホールディングス"],
+      "country_code": "JP",
+      "reporting_currency": "JPY",
+      "fiscal_year_end_month": 3,
+      "accounting_standard": "J-GAAP",
+      "game_segments": [
+        {
+          "segment_id": "digital",
+          "definition_version": "current",
+          "use_consolidated": false,
+          "aliases": ["Digital", "デジタル"]
+        }
+      ],
+      "official_website": "https://www.bandainamco.co.jp/en/ir/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "7832",
+          "market": "TSE Prime",
+          "is_primary": true,
+          "source_url": "https://www.bandainamco.co.jp/en/ir/",
+          "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "edinet_code",
+          "value": "E02481",
+          "is_primary": false,
+          "source_url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "sony_group",
+      "legal_name": "SONY GROUP CORPORATION",
+      "display_name": "Sony Group",
+      "aliases": ["SONY", "ソニーグループ株式会社"],
+      "country_code": "JP",
+      "reporting_currency": "JPY",
+      "fiscal_year_end_month": 3,
+      "accounting_standard": "IFRS",
+      "game_segments": [
+        {
+          "segment_id": "game_and_network_services",
+          "definition_version": "current",
+          "use_consolidated": false,
+          "aliases": ["Game & Network Services", "Game and Network Services", "ゲーム＆ネットワークサービス", "G&NS"]
+        }
+      ],
+      "official_website": "https://www.sony.com/en/SonyInfo/IR/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "6758",
+          "market": "TSE Prime",
+          "is_primary": true,
+          "source_url": "https://www.sony.com/en/SonyInfo/IR/",
+          "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "edinet_code",
+          "value": "E01777",
+          "is_primary": false,
+          "source_url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "cyberagent",
+      "legal_name": "CyberAgent, Inc.",
+      "display_name": "CyberAgent",
+      "aliases": ["CYBERAGENT", "株式会社サイバーエージェント"],
+      "country_code": "JP",
+      "reporting_currency": "JPY",
+      "fiscal_year_end_month": 9,
+      "accounting_standard": "J-GAAP",
+      "game_segments": [
+        {
+          "segment_id": "game_business",
+          "definition_version": "current",
+          "use_consolidated": false,
+          "aliases": ["Game Business", "Games Business", "ゲーム事業"]
+        }
+      ],
+      "official_website": "https://www.cyberagent.co.jp/en/ir/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "4751",
+          "market": "TSE Prime",
+          "is_primary": true,
+          "source_url": "https://www.cyberagent.co.jp/en/ir/",
+          "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "edinet_code",
+          "value": "E05072",
+          "is_primary": false,
+          "source_url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "gungho",
+      "legal_name": "GungHo Online Entertainment, Inc.",
+      "display_name": "GungHo",
+      "aliases": ["GUNGHO ONLINE ENTERTAINMENT", "ガンホー・オンライン・エンターテイメント株式会社"],
+      "country_code": "JP",
+      "reporting_currency": "JPY",
+      "fiscal_year_end_month": 12,
+      "accounting_standard": "J-GAAP",
+      "game_segments": [
+        {
+          "segment_id": "consolidated",
+          "definition_version": "all_operations",
+          "use_consolidated": true,
+          "aliases": []
+        }
+      ],
+      "official_website": "https://www.gungho.co.jp/en/ir/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "3765",
+          "market": "TSE Prime",
+          "is_primary": true,
+          "source_url": "https://www.gungho.co.jp/en/ir/",
+          "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "edinet_code",
+          "value": "E05474",
+          "is_primary": false,
+          "source_url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip",
+          "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "colopl",
+      "legal_name": "COLOPL, Inc.",
+      "display_name": "COLOPL",
+      "aliases": ["Colopl", "株式会社コロプラ"],
+      "country_code": "JP",
+      "reporting_currency": "JPY",
+      "fiscal_year_end_month": 9,
+      "accounting_standard": "J-GAAP",
+      "game_segments": [
+        {
+          "segment_id": "consolidated",
+          "definition_version": "all_operations",
+          "use_consolidated": true,
+          "aliases": []
+        }
+      ],
+      "official_website": "https://colopl.co.jp/en/ir/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "3668",
+          "market": "TSE Prime",
+          "is_primary": true,
+          "source_url": "https://colopl.co.jp/en/ir/",
+          "verification_status": "verified_official_ir"
+        },
+        {
+          "scheme": "edinet_code",
+          "value": "E27062",
+          "is_primary": false,
+          "source_url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip",
+          "verification_status": "verified_official_registry"
         }
       ]
     },
@@ -174,6 +602,27 @@
           "is_primary": false,
           "source_url": "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=00476498",
           "verification_status": "verified_official_registry"
+        }
+      ]
+    },
+    {
+      "company_id": "tencent",
+      "legal_name": "Tencent Holdings Limited",
+      "display_name": "Tencent",
+      "aliases": ["TENCENT", "Tencent Holdings"],
+      "country_code": "KY",
+      "reporting_currency": "CNY",
+      "fiscal_year_end_month": 12,
+      "official_website": "https://www.tencent.com/en-us/investors/",
+      "active": true,
+      "identifiers": [
+        {
+          "scheme": "ticker",
+          "value": "00700",
+          "market": "HKEX Main Board",
+          "is_primary": true,
+          "source_url": "https://www1.hkexnews.hk/search/titlesearch.xhtml?category=0&lang=EN&market=SEHK&stockId=7609",
+          "verification_status": "verified_official_exchange"
         }
       ]
     },

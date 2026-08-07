@@ -68,6 +68,59 @@ jupyter nbconvert \
 python3 -m unittest tests.test_collect_dart tests.test_financial_analysis -v
 ```
 
+## 일본 게임사 EDINET 파이프라인
+
+금융청 EDINET API v2를 이용해 일본 상장 게임 관련 기업 12사의 최근 5개년
+연차·반기 연결재무제표를 수집할 수 있습니다. 대상은 Nexon, Nintendo, Capcom,
+Square Enix, Koei Tecmo, Konami, Sega Sammy, Bandai Namco, Sony Group,
+CyberAgent, GungHo, COLOPL입니다.
+
+API 키를 환경변수로 설정하고, 필요하면 금융청 코드 목록으로 설정을 검증합니다.
+키는 Raw 상태, URL, 매니페스트에 저장되지 않습니다.
+
+```bash
+export EDINET_API_KEY="발급받은_API_키"
+curl -fsSL \
+  https://disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip \
+  -o /tmp/Edinetcode.zip
+python3 collect_edinet.py \
+  --code-list /tmp/Edinetcode.zip \
+  --history-years 5
+```
+
+특정 회사나 제출일 범위만 수집할 수도 있습니다.
+
+```bash
+python3 collect_edinet.py \
+  --company capcom \
+  --start-date 2026-06-01 \
+  --end-date 2026-07-27
+```
+
+수집 후 공통 메타데이터와 EDINET 전용 Financial Silver·TTM Gold를 생성합니다.
+
+```bash
+python3 build_lakehouse_metadata.py
+python3 build_edinet_financials.py
+```
+
+- Raw XBRL/CSV ZIP: `game_accounting_lake/raw/objects/`
+- Financial Silver: `game_accounting_lake/silver/financial/CURRENT/`
+- JPY TTM Gold: `game_accounting_lake/gold/edinet/CURRENT/`
+
+2024년 제도 변경 이후 법정 1·3분기 보고서는 수집하지 않습니다. 과거 반기
+연속성을 위해 2024년 이전 제2분기 누적보고서만 반기 자료로 취급합니다. 정정
+공시와 재수집 관측은 새 행으로 보존하며, 분석 스냅샷에서만 최신 유효본을
+선택합니다.
+
+EDINET 파이프라인 테스트:
+
+```bash
+python3 -m unittest \
+  tests.test_collect_edinet \
+  tests.test_build_edinet_financials -v
+```
+
 ## 분석 기준
 
 - 모든 회사에 연결재무제표(`CFS`) 적용

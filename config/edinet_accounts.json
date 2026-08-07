@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "mapping_version": "2026-07-27.4",
+  "accounts": [
+    {
+      "account_id": "revenue",
+      "statement_type": "income_statement",
+      "period_type": "duration",
+      "priority": 10,
+      "concept_patterns": [
+        "(^|:)(Revenue|Revenues|NetSales|OperatingRevenue|RevenueIFRS)$",
+        "SalesRevenue",
+        "NetSalesIFRS",
+        "NetSalesAndOperatingRevenueIFRS"
+      ],
+      "label_patterns": ["^Revenue$", "^Net sales$", "^売上高$", "^売上収益$"]
+    },
+    {
+      "account_id": "operating_income",
+      "statement_type": "income_statement",
+      "period_type": "duration",
+      "priority": 10,
+      "concept_patterns": [
+        "Operating(Income|Profit)(Loss)?",
+        "ProfitLossFromOperatingActivities",
+        "OperatingProfitLossIFRS"
+      ],
+      "label_patterns": ["Operating income", "Operating profit", "営業利益"]
+    },
+    {
+      "account_id": "net_income_parent",
+      "statement_type": "income_statement",
+      "period_type": "duration",
+      "priority": 10,
+      "concept_patterns": [
+        "ProfitLossAttributableToOwnersOfParent",
+        "ProfitAttributableToOwnersOfParent",
+        "NetIncomeLossAttributableToOwnersOfParent",
+        "ProfitLossAttributableToOwnersOfParentIFRS"
+      ],
+      "label_patterns": ["Profit attributable to owners of parent", "親会社株主に帰属する.*純利益", "親会社の所有者に帰属する.*利益"]
+    },
+    {
+      "account_id": "total_assets",
+      "statement_type": "balance_sheet",
+      "period_type": "instant",
+      "priority": 10,
+      "concept_patterns": ["(^|:)Assets(IFRS)?$", "TotalAssets"],
+      "label_patterns": ["^Assets$", "^Total assets$", "^資産合計$"]
+    },
+    {
+      "account_id": "total_liabilities",
+      "statement_type": "balance_sheet",
+      "period_type": "instant",
+      "priority": 10,
+      "concept_patterns": ["(^|:)Liabilities(IFRS)?$", "TotalLiabilities"],
+      "label_patterns": ["^Liabilities$", "^Total liabilities$", "^負債合計$"]
+    },
+    {
+      "account_id": "total_equity",
+      "statement_type": "balance_sheet",
+      "period_type": "instant",
+      "priority": 10,
+      "concept_patterns": ["(^|:)(Equity|NetAssets)(IFRS)?$", "TotalEquity"],
+      "label_patterns": ["^Equity$", "^Net assets$", "^Total equity$", "^純資産合計$", "^資本合計$"]
+    },
+    {
+      "account_id": "cash_and_cash_equivalents",
+      "statement_type": "balance_sheet",
+      "period_type": "instant",
+      "priority": 10,
+      "concept_patterns": ["CashAndCashEquivalents", "CashAndCashEquivalentsIFRS"],
+      "label_patterns": ["Cash and cash equivalents", "現金及び現金同等物"]
+    },
+    {
+      "account_id": "operating_cash_flow",
+      "statement_type": "cash_flow_statement",
+      "period_type": "duration",
+      "priority": 10,
+      "concept_patterns": [
+        "NetCashProvidedByUsedInOperatingActivities",
+        "CashFlowsFromUsedInOperatingActivities",
+        "NetCashProvidedByUsedInOperatingActivitiesIFRS"
+      ],
+      "label_patterns": ["Net cash provided by.*operating activities", "営業活動によるキャッシュ・フロー"]
+    },
+    {
+      "account_id": "capital_expenditure",
+      "statement_type": "cash_flow_statement",
+      "period_type": "duration",
+      "priority": 20,
+      "concept_patterns": [
+        "PurchaseOfPropertyPlantAndEquipment(?:AndIntangibleAssets)?(?:InvCF)?",
+        "PaymentsForPurchaseOfPropertyPlantAndEquipment(?:InvCF)?",
+        "PurchaseOfPropertyPlantAndEquipment(?:AndIntangibleAssets)?InvCFIFRS",
+        "CapitalExpenditures(?:InvCF)?IFRS"
+      ],
+      "label_patterns": ["Purchase.*property.*equipment", "有形固定資産の取得", "設備投資"]
+    },
+    {
+      "account_id": "research_and_development_expense",
+      "statement_type": "notes",
+      "period_type": "duration",
+      "priority": 20,
+      "concept_patterns": [
+        "ResearchAndDevelopment(Expenses?|Costs?)",
+        "ResearchAndDevelopmentExpensesSGA",
+        "ResearchAndDevelopmentExpensesIncludedInGeneralAndAdministrativeExpensesAndManufacturingCostForCurrentPeriod",
+        "ResearchAndDevelopmentExpensesResearchAndDevelopmentActivities",
+        "ResearchAndDevelopmentExpenditureRecognizedAsExpenseDuringPeriodIFRS"
+      ],
+      "label_patterns": ["Research and development", "研究開発費"]
+    },
+    {
+      "account_id": "segment_revenue",
+      "statement_type": "segment",
+      "period_type": "duration",
+      "priority": 10,
+      "concept_patterns": [
+        "RevenueFromExternalCustomers",
+        "RevenueFromExternalCustomersIFRS",
+        "NetSalesAndOperatingRevenueFromExternalCustomersIFRS",
+        "SalesToExternalCustomers",
+        "SegmentRevenue",
+        "NetSalesByReportableSegment"
+      ],
+      "label_patterns": ["Revenue from external customers", "Sales to external customers", "外部顧客への売上高", "セグメント.*売上高"]
+    },
+    {
+      "account_id": "segment_profit",
+      "statement_type": "segment",
+      "period_type": "duration",
+      "priority": 10,
+      "concept_patterns": [
+        "SegmentProfit",
+        "SegmentProfitLossIFRS",
+        "ProfitLossByReportableSegment",
+        "OperatingIncomeByReportableSegment"
+      ],
+      "label_patterns": ["Segment profit", "Segment income", "セグメント利益"]
+    }
+  ]
+}
